@@ -960,7 +960,7 @@ button {
     max-width: 768px;
   }
   .about-us-item {
-    width: calc((100%-72px) / 2);
+    width: calc((100%-24px) / 2);
   }
   .about-us-list {
     display: flex;
@@ -977,13 +977,15 @@ button {
     text-align: left;
   }
 }
-
+/*-------------------------------------------------------------------------------------*/
+/*---------------------------------------Desktop---------------------------------------*/
 @media screen and (min-width: 1158px) {
   .container {
-    margin: 0 auto;
     max-width: 1158px;
     padding: 0 15px;
+    margin: 0 auto;
   }
+
   .about-us-subtitle {
     font-size: 20px;
     font-weight: 500;
