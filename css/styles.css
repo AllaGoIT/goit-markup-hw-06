@@ -993,8 +993,7 @@ button {
     padding-right: 15px;
   }
   .about-us-container {
-    min-height: 224px;
-    min-width: 1128px;
+    display: flex;
   }
 
   .about-us-subtitle {
@@ -1004,6 +1003,8 @@ button {
   }
   .about-us-list {
     display: flex;
+    gap: 24px;
+    flex-wrap: none;
   }
   .about-us-item {
     width: calc((100%-72px) / 4);
@@ -1017,6 +1018,7 @@ button {
     margin-bottom: 8px;
     height: 112px;
     width: calc((100%-72px) / 4);
+    flex-wrap: none;
   }
   .about-us-item-text {
     font-weight: 400;
