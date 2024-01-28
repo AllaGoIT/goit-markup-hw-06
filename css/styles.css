@@ -54,7 +54,10 @@ img {
   /* max-width: 1158px;*/
   max-width: 320px;
   /*padding: 0 15px;*/
-  padding: 0 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*-------------------------HEADER--------------------------*/
@@ -296,6 +299,7 @@ button {
   border-radius: 4px;
   margin-bottom: 8px;
   height: 112px;*/
+  display: none;
 }
 
 .visually-hidden {
@@ -985,8 +989,8 @@ button {
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .about-us-subtitle {
