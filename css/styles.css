@@ -992,6 +992,10 @@ button {
     padding-left: 15px;
     padding-right: 15px;
   }
+  .about-us-container {
+    min-height: 224px;
+    min-width: 1128px;
+  }
 
   .about-us-subtitle {
     font-size: 20px;
@@ -1012,6 +1016,7 @@ button {
     border-radius: 4px;
     margin-bottom: 8px;
     height: 112px;
+    width: calc((100%-72px) / 4);
   }
   .about-us-item-text {
     font-weight: 400;
