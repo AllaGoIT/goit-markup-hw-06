@@ -994,21 +994,26 @@ button {
   }
   .about-us-container {
     display: flex;
+    min-height: 224px;
+    max-width: 1128px;
   }
 
   .about-us-subtitle {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    margin-top: 0;
+    margin-top: 8px;
   }
   .about-us-list {
     display: flex;
     gap: 24px;
     flex-wrap: nowrap;
+    margin-top: 120px;
   }
   .about-us-item {
     width: calc((100%-72px) / 4);
+    width: auto;
+    height: auto;
   }
   .about-us-item-icon {
     display: flex;
