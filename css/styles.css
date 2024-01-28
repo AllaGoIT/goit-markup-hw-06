@@ -1000,11 +1000,12 @@ button {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    margin-top: 0;
   }
   .about-us-list {
     display: flex;
     gap: 24px;
-    flex-wrap: none;
+    flex-wrap: nowrap;
   }
   .about-us-item {
     width: calc((100%-72px) / 4);
@@ -1018,7 +1019,8 @@ button {
     margin-bottom: 8px;
     height: 112px;
     width: calc((100%-72px) / 4);
-    flex-wrap: none;
+    flex-wrap: nowrap;
+    margin-top: 0;
   }
   .about-us-item-text {
     font-weight: 400;
