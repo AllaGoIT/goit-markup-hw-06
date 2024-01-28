@@ -962,4 +962,46 @@ button {
   .about-us-item {
     width: calc((100%-72px) / 2);
   }
+  .about-us-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+  .about-us-item-text {
+    margin-bottom: 72px;
+    font-style: normal;
+    text-align: left;
+  }
+  .about-us-subtitle {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    margin: 0 auto;
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+  .about-us-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .about-us-list {
+    display: flex;
+  }
+  .about-us-item {
+    width: calc((100%-72px) / 4);
+  }
+  .about-us-item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    height: 112px;
+  }
 }
