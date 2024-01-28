@@ -1029,5 +1029,6 @@ button {
   }
   .about-us-item-text {
     font-weight: 400;
+    width: 264px;
   }
 }
