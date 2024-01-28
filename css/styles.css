@@ -262,6 +262,9 @@ button {
   line-height: 1.11;
   text-transform: capitalize;
   margin-top: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
 }
 
 .about-us-item-text {
@@ -1005,5 +1008,8 @@ button {
     border-radius: 4px;
     margin-bottom: 8px;
     height: 112px;
+  }
+  .about-us-item-text {
+    font-weight: 400;
   }
 }
