@@ -1076,3 +1076,17 @@ button {
     width: 264px;
   }
 }
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .header-novigation-logo {
+    margin-right: 76px;
+  }
+  .header-address-list {
+    display: flex;
+    gap: 40px;
+  }
+}
