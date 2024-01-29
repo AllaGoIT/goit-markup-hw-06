@@ -1075,6 +1075,35 @@ button {
     margin-bottom: 36px;
   }
 }
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .footer {
+    padding-top: 97.5px;
+  }
+  .footer-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .footer-wrap {
+    margin-left: 108px;
+    margin-right: 24px;
+  }
+  .social-icons-text {
+    margin-left: auto;
+  }
+
+  .footer-email {
+    margin-left: 108px;
+  }
+
+  .button {
+  }
+}
 
 /*-------------------------------------------------------------------------------------*/
 /*---------------------------------------Desktop---------------------------------------*/
