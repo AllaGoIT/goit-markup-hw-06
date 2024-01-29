@@ -1083,10 +1083,18 @@ button {
     padding-right: 15px;
   }
   .header-novigation-logo {
-    margin-right: 76px;
+    margin: 0 auto;
   }
   .header-address-list {
     display: flex;
     gap: 40px;
+  }
+  address {
+    display: flex;
+    margin-right: auto;
+  }
+  .header-menu-list {
+    margin-left: 76px;
+    margin-right: 332px;
   }
 }
