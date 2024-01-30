@@ -316,12 +316,14 @@ button {
 
 .team {
   background-color: #f4f4fd;
-  padding-bottom: 120px;
+  /*padding-bottom: 120px;*/
   background-position: center;
-  max-width: 1440px;
+  /*max-width: 1440px;*/
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  direction: column;
+  width: 320px;
 }
 
 .team-title {
@@ -332,7 +334,9 @@ button {
   letter-spacing: 0.02em;
   margin-bottom: 72px;
   text-align: center;
-  padding-top: 120px;
+  /*padding-top: 120px;*/
+  padding-top: 96px;
+  text-transform: capitalize;
 }
 
 .team-title-list-subtitle {
@@ -342,8 +346,9 @@ button {
   line-height: 1.2;
   /* 120% */
   letter-spacing: 0.02em;
-  text-align: center;
+
   margin-bottom: 8px;
+  padding-left: auto;
 }
 
 .team-title-list-text {
@@ -352,13 +357,16 @@ button {
   line-height: 1.5;
   /* 150% */
   letter-spacing: 0.02em;
-  text-align: center;
+
+  padding-left: auto;
 }
 
 .team-title-list {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  /*gap: 24px;*/
   align-items: flex-start;
+  gap: 72px;
 }
 
 .team-title-list-item {
@@ -376,8 +384,14 @@ button {
 }
 
 .team-title-list-container {
-  padding: 32px 0 32px;
+  padding: 32px 0 32px 0;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 264px;
+  background-color: #fff;
 }
 
 .team-title-list-item-end {
@@ -1118,6 +1132,33 @@ button {
   }
   .footer-input-name {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .team {
+    width: 768px;
+    height: 1224px;
+    direction: none;
+  }
+
+  .team-title-list {
+    gap: 24px;
+    display: flex;
+    width: calc((100% - 24px) / 2);
+  }
+  .team-title {
+    padding-left: 316px;
+    margin-bottom: 72px;
+  }
+  .team-title-list {
+    flex-direction: row;
+  }
+
+  .team-title-list-container {
   }
 }
 /*-------------------------------------------------------------------------------------*/
