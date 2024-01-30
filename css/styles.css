@@ -1105,8 +1105,7 @@ button {
     display: inline;
     margin-left: 24px;
   }
-  .social-icons {
-  }
+
   .title-input {
     margin-top: 0;
     margin-left: 0;
@@ -1199,5 +1198,58 @@ button {
   }
   .hero-title {
     margin-bottom: 48px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .footer-container {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    margin-left: 0;
+  }
+  .footer-wrap {
+    margin-right: auto;
+    margin-left: 141px;
+  }
+  .footer-text {
+    width: 264px;
+    left: 15px;
+  }
+  .footer-input-name {
+    width: 264px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #fff;
+  }
+  .footer-contacts {
+    display: flex;
+    gap: 24px;
+  }
+  .footer-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: auto;
+    padding-top: 8px;
+    gap: 16px;
+    text-align: center;
+  }
+  .footer-email {
+    margin-left: auto;
+  }
+
+  .subscribe-btn {
+    margin-left: 0;
+    padding-top: 8px;
   }
 }
