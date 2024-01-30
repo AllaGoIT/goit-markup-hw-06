@@ -619,8 +619,7 @@ button {
   height: 40px;
   flex-shrink: 0;
   border-radius: 4px;
-  border: 1px solid #ffffff;
-  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);*/
+  border: 1px solid #ffffff; /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15)*/
   display: inline-block;
   justify-content: center;
   align-content: center;
@@ -1088,10 +1087,12 @@ button {
     justify-content: baseline;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: auto;
   }
   .footer-wrap {
     margin-left: 108px;
     margin-right: 24px;
+    padding-bottom: 0px;
   }
   .social-icons-text {
     margin-left: auto;
@@ -1100,11 +1101,26 @@ button {
   .footer-email {
     margin-left: 108px;
   }
-
-  .button {
+  .footer-btn {
+    display: inline;
+    margin-left: 24px;
+  }
+  .social-icons {
+  }
+  .title-input {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .footer-logo-italic {
+    margin-left: 0;
+  }
+  .footer-text {
+    margin-left: 0;
+  }
+  .footer-input-name {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   }
 }
-
 /*-------------------------------------------------------------------------------------*/
 /*---------------------------------------Desktop---------------------------------------*/
 @media screen and (min-width: 1158px) {
