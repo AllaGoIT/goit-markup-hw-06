@@ -1176,6 +1176,16 @@ button {
     margin-top: 72px;
   }
 }
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .portfolio-list {
+    flex-wrap: wrap;
+    row-gap: 72px;
+    flex-direction: row;
+  }
+}
 
 /*-------------------------------------------------------------------------------------*/
 /*---------------------------------------Desktop---------------------------------------*/
@@ -1331,5 +1341,22 @@ button {
   .team-title-list-item {
     margin-left: 0px;
     flex-direction: column;
+  }
+  @media screen and (min-width: 1158px) {
+    .container {
+      max-width: 1158px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  .portfolio-list {
+    row-gap: 48px;
+  }
+  .portfolio-list-item {
+    width: calc((100% - 48px) / 3);
+  }
+  .portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 }
