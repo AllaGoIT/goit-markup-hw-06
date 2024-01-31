@@ -1294,3 +1294,26 @@ button {
     padding-top: 8px;
   }
 }
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .team {
+    padding-bottom: 120px;
+    max-width: 1440px;
+    width: 1158px;
+  }
+  .team-title {
+    padding-top: 120px;
+  }
+  .team-title-list {
+    gap: 24px;
+    flex-wrap: nowrap;
+  }
+  .team-title-list-item {
+    margin-left: 0px;
+    flex-direction: column;
+  }
+}
