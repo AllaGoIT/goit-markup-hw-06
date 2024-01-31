@@ -1140,27 +1140,27 @@ button {
     max-width: 768px;
   }
   .team {
+    direction: none;
     width: 768px;
     height: 1224px;
-    direction: none;
   }
 
-  .team-title-list {
-    gap: 24px;
-    display: flex;
-    width: calc((100% - 24px) / 2);
-  }
   .team-title {
-    padding-left: 316px;
-    margin-bottom: 72px;
+    margin-bottom: 0px;
   }
   .team-title-list {
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+    gap: 24px;
   }
-
-  .team-title-list-container {
+  .team-title-list-item {
+    margin-left: 108px;
+    gap: 24px;
+    margin-top: 72px;
   }
 }
+
 /*-------------------------------------------------------------------------------------*/
 /*---------------------------------------Desktop---------------------------------------*/
 @media screen and (min-width: 1158px) {
