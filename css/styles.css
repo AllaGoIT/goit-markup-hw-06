@@ -319,7 +319,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/peopleoffice.jpg);
+    url(../images/darkbgmob.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -328,6 +328,18 @@ button {
   display: flex;
   margin: 0 auto;
   margin-bottom: 120px;
+  
+}
+@media  screen and (min-device-pixel-ratio: 2),
+(min-resolution: 2dppx), (min-resolution: 192dpi) {
+  ,hero {
+background-color: #2e2f42;
+  background-image:linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/maxmob2x.jpg);
+  }
 }
 
 .hero-title {
@@ -1342,6 +1354,33 @@ button {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .hero {
+    background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/darkbgplans.jpg);
+  }
+}
+@media  screen and (min-device-pixel-ratio: 2),
+(min-resolution: 2dppx), (min-resolution: 192dpi) {
+   ,hero {
+background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/maxplans2x.jpg);
+  }
+}
+  
+
+
 /*-------------------------------------------------------------------------------------*/
 /*---------------------------------------Desktop---------------------------------------*/
 @media screen and (min-width: 1158px) {
@@ -1527,3 +1566,30 @@ button {
   min-height: 584px;
     }
   }
+  @media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+  .hero{
+ background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/peopleoffice.jpg);
+}
+  }
+  @media  screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx), (min-resolution: 192dpi) {
+     ,hero {
+background-color: #2e2f42;
+  background-image:linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/peopleofficemax2x.jpg);
+  }
+  
+}
