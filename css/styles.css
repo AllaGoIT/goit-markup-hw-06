@@ -872,8 +872,10 @@ button {
 }
 
 .modal {
-  width: 408px;
-  min-height: 584px;
+  /*width: 408px;
+  min-height: 584px;*/
+  width: 320px;
+  height: 623px;
   background-color: #fcfcfc;
   position: absolute;
   top: 50%;
@@ -948,7 +950,8 @@ button {
 }
 
 .modal-input-name {
-  width: 360px;
+  /*width: 360px;*/
+  width: 256px;
   border-radius: 4px;
   flex-shrink: 0;
   border: 1px solid #2e2f4266;
@@ -966,24 +969,24 @@ button {
   border-color: #4d5ae5;
 }
 
-.modal-body {
-}
+
 .modal-input-phone {
-  width: 360px;
+  width: 256px;
   height: 40px;
   flex-shrink: 0;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .modal-input-email {
-  width: 360px;
+  width: 256px;
   height: 40px;
   flex-shrink: 0;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .modal-input-comm {
-  width: 360px;
+  /*width: 360px;*/
+  width: 256px;
   height: 120px;
   flex-shrink: 0;
   border-radius: 4px;
@@ -999,7 +1002,8 @@ button {
   color: rgba((46, 47, 66, 0.4));
 }
 .modal-texta-comment {
-  width: 100%;
+  /*width: 100%;*/
+  width: 256px;
   height: 120px;
   font-size: 12px;
   line-height: 1.17;
@@ -1312,6 +1316,32 @@ button {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .modal {
+    width: 408px;
+    height: 584px;
+  }
+
+  .modal-input-name {
+  width: 360px;
+  }
+
+  .modal-input-phone {
+  width: 360px;
+  }
+  .modal-input-comm {
+  width: 360px;
+ 
+  }
+
+  .modal-texta-comment {
+  width: 100%;
+  }
+}
+
 /*-------------------------------------------------------------------------------------*/
 /*---------------------------------------Desktop---------------------------------------*/
 @media screen and (min-width: 1158px) {
@@ -1485,3 +1515,15 @@ button {
     padding-bottom: 120px;
   }
 }
+
+@media screen and (min-width: 1158px) {
+    .container {
+      max-width: 1158px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .modal {
+  width: 408px;
+  min-height: 584px;
+    }
+  }
