@@ -1375,7 +1375,7 @@ background-color: #2e2f42;
 }
 @media  screen and (min-device-pixel-ratio: 2),
 (min-resolution: 2dppx), (min-resolution: 192dpi) {
-   ,hero {
+   .hero {
 background-color: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -1589,7 +1589,7 @@ background-color: #2e2f42;
   }
   @media  screen and (min-device-pixel-ratio: 2),
   (min-resolution: 2dppx), (min-resolution: 192dpi) {
-     ,hero {
+     .hero {
 background-color: #2e2f42;
   background-image:linear-gradient(
       rgba(46, 47, 66, 0.7),
