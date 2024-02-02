@@ -621,6 +621,8 @@ background-color: #2e2f42;
 }
 .portfolio-list-image {
   margin: 0 auto;
+  width: 288px;
+  height: 280px;
 }
 
 .portfolio-title {
@@ -1325,6 +1327,10 @@ background-color: #2e2f42;
     flex-wrap: wrap;
     row-gap: 72px;
     flex-direction: row;
+  }
+  .portfolio-list-image {
+    width: 356px;
+    height: 300px;
   }
 }
 
