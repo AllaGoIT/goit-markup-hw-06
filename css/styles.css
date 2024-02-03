@@ -1490,17 +1490,16 @@ background-color: #2e2f42;
   }
   .header-novigation-logo {
     margin: 0 auto;
-       padding-left: 141px;
+      
   }
   }
   .header-address-list {
     display: flex;
     gap: 40px;
-    margin-right: auto;
+    
   }
   address {
-    display: flex;
-    margin-right: auto;
+  
   }
 
 @media screen and (min-width: 1158px) {
@@ -1530,7 +1529,7 @@ background-color: #2e2f42;
   .footer {
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 141px;
+ 
  
   }
   .footer-container {
