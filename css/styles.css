@@ -125,8 +125,6 @@ img {
 }
 
 .header-address-list {
-  /*display: flex;
-  gap: 40px;*/
   display: none;
 }
 
@@ -1501,6 +1499,7 @@ background-color: #2e2f42;
   }
   .header-address-list {
     display: flex;
+    flex-direction: row;
     gap: 40px;
     
   }
